@@ -41,7 +41,7 @@ The game includes live score tracking, high score saving (via localStorage), and
 
 ## 📁 Project Structure  
 
-📦 Snake-Game
+📦 Snake-Game  
  ┣ 📜 index.html  
  ┣ 📜 style.css  
  ┗ 📜 script.js  
@@ -49,7 +49,7 @@ The game includes live score tracking, high score saving (via localStorage), and
 ##📦 How to Run Locally
 
 1. Clone the repository:  
-git clone https://github.com/your-username/snake-game.git
+git clone https://github.com/Lakshay-hub-design/Snake-Game.git  
 
 2. Navigate to the folder:  
 cd snake-game
@@ -65,7 +65,7 @@ cd snake-game
 - Difficulty level
 
 ## Demo
-🔗 Live Demo: 
+🔗 Live Demo: https://lakshay-hub-design.github.io/Snake-Game/
 
 ## 📜 License
 This project is open-source and free to use 🤝
