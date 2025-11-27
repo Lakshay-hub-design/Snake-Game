@@ -46,7 +46,7 @@ The game includes live score tracking, high score saving (via localStorage), and
  ┣ 📜 style.css  
  ┗ 📜 script.js  
 
-##📦 How to Run Locally
+## 📦 How to Run Locally
 
 1. Clone the repository:  
 git clone https://github.com/Lakshay-hub-design/Snake-Game.git  
