@@ -70,6 +70,7 @@ section{
 }
 
 section .infos{
+    padding: 0 var(--spacing-xl);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -85,8 +86,8 @@ section .infos{
     border: solid 1px var(--border-primary-color);
     flex-grow: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(35px, 1fr));
 }
 
 .block{
@@ -113,6 +114,20 @@ section .infos{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sound-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sound-toggle:hover {
+    transform: scale(1.2);
 }
 
 .start-game, .game-over{
