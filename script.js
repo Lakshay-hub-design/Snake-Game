@@ -143,6 +143,8 @@ function startGame () {
 }
 
 function restartGame(){
+    clearInterval(intervalId);
+    clearInterval(timerIntervalId)
     blocks[`${food.x}-${food.y}`].classList.remove('food')
     snake.forEach(segment =>{
         blocks[`${segment.x}-${segment.y}`].classList.remove('fill')
